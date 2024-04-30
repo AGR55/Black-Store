@@ -1,0 +1,45 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block content %}
+    
+    <div class="container store-section {% if request.path != '/store/' %} my-element {% endif %}" style="display: block">
+    
+    {% if user.is_authenticated %}
+    	<div style="float: right">
+        {% include 'widget.html' %}
+    </div>
+        
+        {% else %}
+        <div style="float: right; margin-top: 10px">
+            <span class="alert alert-warning" style="display: block">You must authenticate<br>to make purchases</span>
+        </div>
+    {% endif %} 
+    
+    
+        <div class="row">
+    
+    {% for product in products %}
+        <div class="col-md-3">
+            <div class="card" style="padding: 10px 10px; margin-bottom: 10px; margin-top: 10px">
+                <img src="{{ product.image.url }}" alt="" class="card-img-top">
+                <div class="card-body" style="text-align: center">
+                <h6 class="card-title">{{ product.name }}</h6>
+                <p class="card-text">${{ product.price }}</p>
+                </div>   
+                
+                {% if user.is_authenticated %}
+                <div class="card-footer text-center" style="background-color: white">
+                    <a href="{% url 'cart:add_product' product.id %}" class="btn btn-success" style="background-color: rgba(22, 21, 24, 1)">Add to cart</a>
+                </div>
+                {% endif %} 
+            </div>
+    	</div>
+    {% endfor %}
+    
+        </div>
+    </div>
+    
+
+{% endblock %}

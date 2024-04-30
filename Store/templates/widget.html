@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <title>Title</title>
+</head>
+<body>
+
+<table class="table table-bordered" style="color: white; text-align: center; margin-top: 10px;">
+    <thead>
+        <tr>
+            <th colspan="3">Shopping Cart</th>
+        </tr>
+    
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Sum</th>
+        </tr>
+    </thead>
+    
+    <tbody>
+        {% if request.session.shopping.items %}
+        	{% for key, value in request.session.shopping.items %}
+        		<tr class="text-center">
+                    <td>{{ value.name }}</td>
+                    <td>{{ value.quantity }}</td>
+                    <td>
+                        <a href="{% url 'cart:subtract_product' value.product_id %}" class="btn btn-sm btn-success">-</a>
+                        <a href="{% url 'cart:add_product' value.product_id %}" class="btn btn-sm btn-success">+</a>
+                        <br>
+                        {{ value.price }}
+                    </td>
+                </tr>
+        	{% endfor %}
+            
+            {% else %}
+            <tr>
+                <td colspan="3">
+                    <div class="alert alert-danger text-center">Without products</div>
+                </td>
+            </tr>
+        {% endif %} 
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="3" style="color: white">Total: ${{ total_money }}</td>
+        </tr>
+    
+    {% if request.session.shopping.items %}
+    	<tr>
+        <td colspan="3">
+            <a href="{% url 'ProcessOrder' %}"><button class="btn btn-success">Make an order</button></a>
+        </td>
+        </tr>
+    {% endif %} 
+    </tfoot>
+    
+</table>
+
+</body>
+</html>

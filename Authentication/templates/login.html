@@ -1,0 +1,32 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="form-content {% if request.method != 'POST' %} my-element {% endif %}" style="padding: 10px; display: block;margin-left: auto; margin-right: auto; width: min-content">
+        <div style="display: flex; justify-content: center; width: min-content; margin: auto auto 20px;">
+        <img src="{% static '/img/shopping_cart_PNG38-3518966676.png' %}" alt="Shopping Cart" width="50">
+        </div>
+
+        <form action="" method="post">
+            {% csrf_token %}
+        <div style="display: flex; justify-content: center;margin: auto">
+        <h3 style="color: white">Login</h3>
+            </div>
+        <div style="width: min-content;">
+
+            {% if messages %}
+                {% for message in messages %}
+                    <div style="margin-top: 10px; display: flex; justify-content: center;">
+                	<span class="alert alert-danger" style="flex: auto; text-align: center">{{ message }}</span>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        <div>
+        {{ form.as_div }}
+            <input type="submit" class="btn btn-success" value="Login" href="{% url 'Login' %}">
+            </div>
+
+        </div>
+            </form>
+    </div>
+{% endblock content %}

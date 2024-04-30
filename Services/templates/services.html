@@ -1,0 +1,27 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    {% for services in all_services %}
+        
+        <section class="page-section clearfix my-element">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{  services.image.url }}" alt="" style="width: 30%;">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-lower">{{ services.title }}</span>
+          </h2>
+          <p class="mb-3">{{ services.content }}
+          </p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+        
+    {% endfor %}
+
+{% endblock %}

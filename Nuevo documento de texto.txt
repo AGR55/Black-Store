@@ -1,0 +1,19 @@
+Tengo esto y sigue sin reconocer cuando una categoria ya esta, las repite:
+
+{% for post in posts %}
+                
+                {% for categoria in post.categorias.all %}
+                    
+                    {% ifchanged categoria.id %}
+                        
+                        {% if forloop.first %}
+                        
+                        <a href="{% url 'categories' categoria.id %}"> {{ categoria.nombre }}</a>&nbsp;&nbsp;&nbsp;
+                        
+                        {% endif %}
+                    	
+                    {% endifchanged %} 
+                    
+                {% endfor %}
+                
+            {% endfor %}

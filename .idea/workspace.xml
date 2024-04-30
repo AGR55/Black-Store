@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9db91938-cdc6-4332-87d1-d0020db0b5ff" name="Changes" comment="web de prueba en Django">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Authentication/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Authentication/templates/auth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Authentication/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Authentication/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order/migrations/0002_rename_order_id_orderline_order_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order/templates/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/migrations/0005_alter_service_options_alter_service_content_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShoppingCart/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store/migrations/0004_alter_product_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store/migrations/0005_alter_product_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store/templates/widget.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WebProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/templates/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/templates/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contact/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contact/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/static/css/gestion.css" beforeDir="false" afterPath="$PROJECT_DIR$/Home/static/css/gestion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/templates/app/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home/templates/app/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/templates/app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home/templates/app/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Services/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Services/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/templates/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/Services/templates/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingCart/context_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCart/context_processor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingCart/shopping.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingCart/shopping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Store/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store/templates/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/Store/templates/store.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/134756.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/4866462709f6853d1c0a2190f32647e3-1307052327.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2Zt5onz0O66e2XDTayhNXEXVpKP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.WebProject.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: .executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: Home.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: ServicesApp.executor&quot;: &quot;Run&quot;,
+    &quot;Django tests.Test: Store.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PROJECTS/DJANGO/WebProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DJANGO\WebProject\Home\static\img" />
+      <recent name="D:\DJANGO\WebProject\Authentication\templates\presentation" />
+      <recent name="D:\DJANGO\WebProject\Authentication" />
+      <recent name="D:\DJANGO\WebProject\StoreApp\templates" />
+      <recent name="D:\DJANGO\WebProject\ContactApp\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="WebProject" type="Python.DjangoServer" factoryName="Django server">
+      <module name="WebProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="WebProject.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="5000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-67fca87a943a-c986f194a52a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.11799.259" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9db91938-cdc6-4332-87d1-d0020db0b5ff" name="Changes" comment="" />
+      <created>1703228713418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703228713418</updated>
+      <workItem from="1703228714832" duration="658000" />
+      <workItem from="1703265713809" duration="1531000" />
+      <workItem from="1703277521476" duration="14546000" />
+      <workItem from="1703351795296" duration="15634000" />
+      <workItem from="1703437841532" duration="9606000" />
+      <workItem from="1703471453271" duration="11190000" />
+      <workItem from="1703559564508" duration="9044000" />
+      <workItem from="1703622014707" duration="18874000" />
+      <workItem from="1703717537790" duration="13978000" />
+      <workItem from="1703749161815" duration="4389000" />
+      <workItem from="1703791069666" duration="221000" />
+      <workItem from="1703791305771" duration="7116000" />
+      <workItem from="1703816483943" duration="18498000" />
+      <workItem from="1703872644212" duration="7239000" />
+      <workItem from="1703917701809" duration="1321000" />
+      <workItem from="1703919287535" duration="6546000" />
+      <workItem from="1703951777375" duration="30820000" />
+      <workItem from="1704081254814" duration="11090000" />
+      <workItem from="1704258245769" duration="208000" />
+      <workItem from="1704313148812" duration="636000" />
+      <workItem from="1704342260957" duration="41000" />
+      <workItem from="1704342319933" duration="2483000" />
+      <workItem from="1704349381236" duration="620000" />
+      <workItem from="1704438961592" duration="185000" />
+      <workItem from="1704505449688" duration="111000" />
+      <workItem from="1704514609897" duration="519000" />
+      <workItem from="1704650314354" duration="1171000" />
+      <workItem from="1704828746045" duration="352000" />
+      <workItem from="1705340653944" duration="1412000" />
+      <workItem from="1705523083191" duration="134000" />
+      <workItem from="1711170335032" duration="1137000" />
+      <workItem from="1712672180283" duration="112000" />
+      <workItem from="1714435360610" duration="1659000" />
+    </task>
+    <task id="LOCAL-00001" summary="f">
+      <option name="closed" value="true" />
+      <created>1703791470090</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703791470090</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="f" />
+    <MESSAGE value="web de prueba en Django" />
+    <option name="LAST_COMMIT_MESSAGE" value="web de prueba en Django" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WebProject$Test__Store.coverage" NAME="Test: Store Coverage Results" MODIFIED="1703570823163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/WebProject$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1703389114483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/WebProject$Test__Home.coverage" NAME="Test: Home Coverage Results" MODIFIED="1703570858786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/WebProject$Test__ServicesApp.coverage" NAME="Test: ServicesApp Coverage Results" MODIFIED="1703570836693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

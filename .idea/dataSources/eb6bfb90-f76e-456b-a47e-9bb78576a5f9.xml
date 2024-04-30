@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Django default">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.51">
+    <root id="1"/>
+    <database id="2" parent="1" name="BlackStore">
+      <Current>1</Current>
+      <Grants>11||10|C|G
+11||-9223372036854775808|U|G
+11||10|U|G
+2200||6171|C|G
+2200||-9223372036854775808|U|G
+2200||6171|U|G
+13183||10|C|G
+13183||-9223372036854775808|U|G
+13183||10|U|G</Grants>
+      <IntrospectionStateNumber>961</IntrospectionStateNumber>
+      <ObjectId>16598</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <Comment>default administrative connection database</Comment>
+      <ObjectId>5</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="4" parent="1" name="articulosclientes">
+      <ObjectId>16398</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <database id="5" parent="1" name="test_BlackStore">
+      <ObjectId>16783</ObjectId>
+      <OwnerName>postgres</OwnerName>
+    </database>
+    <role id="6" parent="1" name="pg_database_owner">
+      <ObjectId>6171</ObjectId>
+    </role>
+    <role id="7" parent="1" name="pg_read_all_data">
+      <ObjectId>6181</ObjectId>
+    </role>
+    <role id="8" parent="1" name="pg_write_all_data">
+      <ObjectId>6182</ObjectId>
+    </role>
+    <role id="9" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <RoleGrants>3374
+3375
+3377</RoleGrants>
+    </role>
+    <role id="10" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+    </role>
+    <role id="11" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+    </role>
+    <role id="12" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+    </role>
+    <role id="13" parent="1" name="pg_read_server_files">
+      <ObjectId>4569</ObjectId>
+    </role>
+    <role id="14" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
+    </role>
+    <role id="15" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
+    </role>
+    <role id="16" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+    </role>
+    <role id="17" parent="1" name="pg_checkpoint">
+      <ObjectId>4544</ObjectId>
+    </role>
+    <role id="18" parent="1" name="postgres">
+      <BypassRls>1</BypassRls>
+      <CanLogin>1</CanLogin>
+      <CreateDb>1</CreateDb>
+      <CreateRole>1</CreateRole>
+      <ObjectId>10</ObjectId>
+      <Replication>1</Replication>
+      <SuperRole>1</SuperRole>
+    </role>
+    <tablespace id="19" parent="1" name="pg_default">
+      <ObjectId>1663</ObjectId>
+      <StateNumber>1</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </tablespace>
+    <tablespace id="20" parent="1" name="pg_global">
+      <ObjectId>1664</ObjectId>
+      <StateNumber>1</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </tablespace>
+    <schema id="21" parent="2" name="information_schema">
+      <ObjectId>13183</ObjectId>
+      <StateNumber>524</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </schema>
+    <schema id="22" parent="2" name="pg_catalog">
+      <Comment>system catalog schema</Comment>
+      <ObjectId>11</ObjectId>
+      <StateNumber>518</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </schema>
+    <schema id="23" parent="2" name="public">
+      <Comment>standard public schema</Comment>
+      <Current>1</Current>
+      <IntrospectionStateNumber>961</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2023-12-26.05:04:44</LastIntrospectionLocalTimestamp>
+      <ObjectId>2200</ObjectId>
+      <StateNumber>518</StateNumber>
+      <OwnerName>pg_database_owner</OwnerName>
+    </schema>
+    <sequence id="24" parent="23" name="BlogApp_categorypost_id_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>17099</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>952</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="25" parent="23" name="BlogApp_post_category_id_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>17056</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>932</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="26" parent="23" name="BlogApp_post_id_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>16753</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>875</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="27" parent="23" name="ServicesApp_service_id_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>16607</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>829</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="28" parent="23" name="StoreApp_categoryproduct_id_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>17105</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>954</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="29" parent="23" name="StoreApp_product_id_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>17111</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>954</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="30" parent="23" name="auth_group_id_seq">
+      <DasType>integer|0s</DasType>
+      <ObjectId>16629</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>831</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="31" parent="23" name="auth_group_permissions_id_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>16637</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>831</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="32" parent="23" name="auth_permission_id_seq">
+      <DasType>integer|0s</DasType>
+      <ObjectId>16623</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>831</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="33" parent="23" name="auth_user_groups_id_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>16651</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>831</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="34" parent="23" name="auth_user_id_seq">
+      <DasType>integer|0s</DasType>
+      <ObjectId>16643</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>831</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="35" parent="23" name="auth_user_user_permissions_id_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>16657</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>831</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="36" parent="23" name="django_admin_log_id_seq">
+      <DasType>integer|0s</DasType>
+      <ObjectId>16715</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>833</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="37" parent="23" name="django_content_type_id_seq">
+      <DasType>integer|0s</DasType>
+      <ObjectId>16615</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>830</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <sequence id="38" parent="23" name="django_migrations_id_seq">
+      <DasType>bigint|0s</DasType>
+      <ObjectId>16599</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>828</StateNumber>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <table id="39" parent="23" name="BlogApp_categorypost">
+      <ObjectId>17100</ObjectId>
+      <StateNumber>952</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="40" parent="23" name="BlogApp_post">
+      <ObjectId>16754</ObjectId>
+      <StateNumber>938</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="41" parent="23" name="BlogApp_post_category">
+      <ObjectId>17057</ObjectId>
+      <StateNumber>932</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="42" parent="23" name="ServicesApp_service">
+      <ObjectId>16608</ObjectId>
+      <StateNumber>829</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="43" parent="23" name="StoreApp_categoryproduct">
+      <ObjectId>17106</ObjectId>
+      <StateNumber>954</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="44" parent="23" name="StoreApp_product">
+      <ObjectId>17112</ObjectId>
+      <StateNumber>954</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="45" parent="23" name="auth_group">
+      <ObjectId>16630</ObjectId>
+      <StateNumber>831</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="46" parent="23" name="auth_group_permissions">
+      <ObjectId>16638</ObjectId>
+      <StateNumber>831</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="47" parent="23" name="auth_permission">
+      <ObjectId>16624</ObjectId>
+      <StateNumber>831</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="48" parent="23" name="auth_user">
+      <ObjectId>16644</ObjectId>
+      <StateNumber>844</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="49" parent="23" name="auth_user_groups">
+      <ObjectId>16652</ObjectId>
+      <StateNumber>831</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="50" parent="23" name="auth_user_user_permissions">
+      <ObjectId>16658</ObjectId>
+      <StateNumber>831</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="51" parent="23" name="django_admin_log">
+      <ObjectId>16716</ObjectId>
+      <StateNumber>833</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="52" parent="23" name="django_content_type">
+      <ObjectId>16616</ObjectId>
+      <StateNumber>831</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="53" parent="23" name="django_migrations">
+      <ObjectId>16600</ObjectId>
+      <StateNumber>828</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <table id="54" parent="23" name="django_session">
+      <ObjectId>16744</ObjectId>
+      <StateNumber>849</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <column id="55" parent="39" name="id">
+      <DasType>bigint|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>952</StateNumber>
+      <SequenceId>17099</SequenceId>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="56" parent="39" name="name">
+      <DasType>varchar(30)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>952</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="57" parent="39" name="created">
+      <DasType>timestamp with time zone|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>952</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <column id="58" parent="39" name="modified">
+      <DasType>timestamp with time zone|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StateNumber>952</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <index id="59" parent="39" name="BlogApp_categorypost_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>17103</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>952</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="60" parent="39" name="BlogApp_categorypost_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>17104</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>952</StateNumber>
+      <UnderlyingIndexId>17103</UnderlyingIndexId>
+    </key>
+    <column id="61" parent="40" name="id">
+      <DasType>bigint|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>875</StateNumber>
+      <SequenceId>16753</SequenceId>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="62" parent="40" name="title">
+      <DasType>varchar(30)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>875</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="63" parent="40" name="content">
+      <DasType>text|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>875</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="64" parent="40" name="image">
+      <DasType>varchar(100)|0s</DasType>
+      <Position>5</Position>
+      <StateNumber>932</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="65" parent="40" name="created">
+      <DasType>timestamp with time zone|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StateNumber>875</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <column id="66" parent="40" name="modified">
+      <DasType>timestamp with time zone|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <StateNumber>875</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <column id="67" parent="40" name="author_id">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+      <StateNumber>938</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="68" parent="40" name="BlogApp_post_author_id_e19373f1_fk_auth_user_id">
+      <ColNames>author_id</ColNames>
+      <Deferrable>1</Deferrable>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ObjectId>17092</ObjectId>
+      <StateNumber>938</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>16644</RefTableId>
+    </foreign-key>
+    <index id="69" parent="40" name="BlogApp_post_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16759</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>875</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="70" parent="40" name="BlogApp_post_author_id_e19373f1">
+      <ColNames>author_id</ColNames>
+      <ObjectId>17097</ObjectId>
+      <StateNumber>938</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="71" parent="40" name="BlogApp_post_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16760</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>875</StateNumber>
+      <UnderlyingIndexId>16759</UnderlyingIndexId>
+    </key>
+    <column id="72" parent="41" name="id">
+      <DasType>bigint|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>932</StateNumber>
+      <SequenceId>17056</SequenceId>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="73" parent="41" name="post_id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>932</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="74" parent="41" name="categorypost_id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>952</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <foreign-key id="75" parent="41" name="BlogApp_post_category_post_id_84a48f58_fk_BlogApp_post_id">
+      <ColNames>post_id</ColNames>
+      <Deferrable>1</Deferrable>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ObjectId>17065</ObjectId>
+      <StateNumber>932</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>16754</RefTableId>
+    </foreign-key>
+    <index id="76" parent="41" name="BlogApp_post_category_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>17060</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>932</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="77" parent="41" name="BlogApp_post_category_post_id_category_id_0fe99566_uniq">
+      <ColNames>post_id
+categorypost_id</ColNames>
+      <ObjectId>17063</ObjectId>
+      <StateNumber>932</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="78" parent="41" name="BlogApp_post_category_post_id_84a48f58">
+      <ColNames>post_id</ColNames>
+      <ObjectId>17075</ObjectId>
+      <StateNumber>932</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="79" parent="41" name="BlogApp_post_category_category_id_d3f83ff7">
+      <ColNames>categorypost_id</ColNames>
+      <ObjectId>17076</ObjectId>
+      <StateNumber>932</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="80" parent="41" name="BlogApp_post_category_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>17061</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>932</StateNumber>
+      <UnderlyingIndexId>17060</UnderlyingIndexId>
+    </key>
+    <key id="81" parent="41" name="BlogApp_post_category_post_id_category_id_0fe99566_uniq">
+      <ObjectId>17064</ObjectId>
+      <StateNumber>932</StateNumber>
+      <UnderlyingIndexId>17063</UnderlyingIndexId>
+    </key>
+    <column id="82" parent="42" name="id">
+      <DasType>bigint|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>829</StateNumber>
+      <SequenceId>16607</SequenceId>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="83" parent="42" name="title">
+      <DasType>varchar(30)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>829</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="84" parent="42" name="content">
+      <DasType>text|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>829</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="85" parent="42" name="image">
+      <DasType>varchar(100)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StateNumber>829</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="86" parent="42" name="created">
+      <DasType>timestamp with time zone|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StateNumber>829</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <column id="87" parent="42" name="modified">
+      <DasType>timestamp with time zone|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StateNumber>876</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <index id="88" parent="42" name="ServicesApp_service_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16613</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>829</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="89" parent="42" name="ServicesApp_service_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16614</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>829</StateNumber>
+      <UnderlyingIndexId>16613</UnderlyingIndexId>
+    </key>
+    <column id="90" parent="43" name="id">
+      <DasType>bigint|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>954</StateNumber>
+      <SequenceId>17105</SequenceId>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="91" parent="43" name="name">
+      <DasType>varchar(30)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>954</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="92" parent="43" name="created">
+      <DasType>timestamp with time zone|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>954</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <column id="93" parent="43" name="modified">
+      <DasType>timestamp with time zone|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StateNumber>954</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <index id="94" parent="43" name="StoreApp_categoryproduct_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>17109</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>954</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="95" parent="43" name="StoreApp_categoryproduct_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>17110</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>954</StateNumber>
+      <UnderlyingIndexId>17109</UnderlyingIndexId>
+    </key>
+    <column id="96" parent="44" name="id">
+      <DasType>bigint|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>954</StateNumber>
+      <SequenceId>17111</SequenceId>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="97" parent="44" name="name">
+      <DasType>varchar(30)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>954</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="98" parent="44" name="image">
+      <DasType>varchar(100)|0s</DasType>
+      <Position>3</Position>
+      <StateNumber>954</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="99" parent="44" name="price">
+      <DasType>numeric(7,2 digit)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StateNumber>954</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="100" parent="44" name="availability">
+      <DasType>boolean|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StateNumber>954</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="101" parent="44" name="category_id">
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StateNumber>954</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <foreign-key id="102" parent="44" name="StoreApp_product_category_id_94f44263_fk_StoreApp_">
+      <ColNames>category_id</ColNames>
+      <Deferrable>1</Deferrable>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ObjectId>17117</ObjectId>
+      <StateNumber>954</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>17106</RefTableId>
+    </foreign-key>
+    <index id="103" parent="44" name="StoreApp_product_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>17115</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>954</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="104" parent="44" name="StoreApp_product_category_id_94f44263">
+      <ColNames>category_id</ColNames>
+      <ObjectId>17122</ObjectId>
+      <StateNumber>954</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="105" parent="44" name="StoreApp_product_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>17116</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>954</StateNumber>
+      <UnderlyingIndexId>17115</UnderlyingIndexId>
+    </key>
+    <column id="106" parent="45" name="id">
+      <DasType>integer|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>831</StateNumber>
+      <SequenceId>16629</SequenceId>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="107" parent="45" name="name">
+      <DasType>varchar(150)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>846</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="108" parent="45" name="auth_group_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16633</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>831</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="109" parent="45" name="auth_group_name_key">
+      <ColNames>name</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16741</ObjectId>
+      <StateNumber>846</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <index id="110" parent="45" name="auth_group_name_a6ea08ec_like">
+      <ColNames>name</ColNames>
+      <ObjectId>16743</ObjectId>
+      <StateNumber>846</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+      <ClassNames>varchar_pattern_ops</ClassNames>
+      <ClassIds>4218</ClassIds>
+      <ClassParentNames>pg_catalog</ClassParentNames>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <key id="111" parent="45" name="auth_group_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16634</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>831</StateNumber>
+      <UnderlyingIndexId>16633</UnderlyingIndexId>
+    </key>
+    <key id="112" parent="45" name="auth_group_name_key">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16742</ObjectId>
+      <StateNumber>846</StateNumber>
+      <UnderlyingIndexId>16741</UnderlyingIndexId>
+    </key>
+    <column id="113" parent="46" name="id">
+      <DasType>bigint|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>831</StateNumber>
+      <SequenceId>16637</SequenceId>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="114" parent="46" name="group_id">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>831</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="115" parent="46" name="permission_id">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>831</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="116" parent="46" name="auth_group_permissions_group_id_b120cbf9_fk_auth_group_id">
+      <ColNames>group_id</ColNames>
+      <Deferrable>1</Deferrable>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ObjectId>16674</ObjectId>
+      <StateNumber>831</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>16630</RefTableId>
+    </foreign-key>
+    <foreign-key id="117" parent="46" name="auth_group_permissio_permission_id_84c5c92e_fk_auth_perm">
+      <ColNames>permission_id</ColNames>
+      <Deferrable>1</Deferrable>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ObjectId>16679</ObjectId>
+      <StateNumber>831</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>16624</RefTableId>
+    </foreign-key>
+    <index id="118" parent="46" name="auth_group_permissions_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16641</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>831</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="119" parent="46" name="auth_group_permissions_group_id_permission_id_0cd325b0_uniq">
+      <ColNames>group_id
+permission_id</ColNames>
+      <ObjectId>16672</ObjectId>
+      <StateNumber>831</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="120" parent="46" name="auth_group_permissions_group_id_b120cbf9">
+      <ColNames>group_id</ColNames>
+      <ObjectId>16684</ObjectId>
+      <StateNumber>831</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="121" parent="46" name="auth_group_permissions_permission_id_84c5c92e">
+      <ColNames>permission_id</ColNames>
+      <ObjectId>16685</ObjectId>
+      <StateNumber>831</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="122" parent="46" name="auth_group_permissions_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16642</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>831</StateNumber>
+      <UnderlyingIndexId>16641</UnderlyingIndexId>
+    </key>
+    <key id="123" parent="46" name="auth_group_permissions_group_id_permission_id_0cd325b0_uniq">
+      <ObjectId>16673</ObjectId>
+      <StateNumber>831</StateNumber>
+      <UnderlyingIndexId>16672</UnderlyingIndexId>
+    </key>
+    <column id="124" parent="47" name="id">
+      <DasType>integer|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>831</StateNumber>
+      <SequenceId>16623</SequenceId>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="125" parent="47" name="name">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>838</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="126" parent="47" name="content_type_id">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>831</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="127" parent="47" name="codename">
+      <DasType>varchar(100)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StateNumber>831</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <foreign-key id="128" parent="47" name="auth_permission_content_type_id_2f476e4b_fk_django_co">
+      <ColNames>content_type_id</ColNames>
+      <Deferrable>1</Deferrable>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ObjectId>16665</ObjectId>
+      <StateNumber>831</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>16616</RefTableId>
+    </foreign-key>
+    <index id="129" parent="47" name="auth_permission_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16627</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>831</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="130" parent="47" name="auth_permission_content_type_id_codename_01ab375a_uniq">
+      <ColNames>content_type_id
+codename</ColNames>
+      <ObjectId>16663</ObjectId>
+      <StateNumber>831</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>
+100</CollationIds>
+      <CollationParentNames>
+pg_catalog</CollationParentNames>
+      <CollationNames>
+default</CollationNames>
+    </index>
+    <index id="131" parent="47" name="auth_permission_content_type_id_2f476e4b">
+      <ColNames>content_type_id</ColNames>
+      <ObjectId>16670</ObjectId>
+      <StateNumber>831</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="132" parent="47" name="auth_permission_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16628</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>831</StateNumber>
+      <UnderlyingIndexId>16627</UnderlyingIndexId>
+    </key>
+    <key id="133" parent="47" name="auth_permission_content_type_id_codename_01ab375a_uniq">
+      <ObjectId>16664</ObjectId>
+      <StateNumber>831</StateNumber>
+      <UnderlyingIndexId>16663</UnderlyingIndexId>
+    </key>
+    <column id="134" parent="48" name="id">
+      <DasType>integer|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>831</StateNumber>
+      <SequenceId>16643</SequenceId>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="135" parent="48" name="password">
+      <DasType>varchar(128)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>831</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="136" parent="48" name="last_login">
+      <DasType>timestamp with time zone|0s</DasType>
+      <Position>3</Position>
+      <StateNumber>841</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <column id="137" parent="48" name="is_superuser">
+      <DasType>boolean|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StateNumber>831</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="138" parent="48" name="username">
+      <DasType>varchar(150)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StateNumber>844</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="139" parent="48" name="first_name">
+      <DasType>varchar(150)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StateNumber>848</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="140" parent="48" name="last_name">
+      <DasType>varchar(150)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <StateNumber>845</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="141" parent="48" name="email">
+      <DasType>varchar(254)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+      <StateNumber>839</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="142" parent="48" name="is_staff">
+      <DasType>boolean|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+      <StateNumber>831</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="143" parent="48" name="is_active">
+      <DasType>boolean|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+      <StateNumber>831</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="144" parent="48" name="date_joined">
+      <DasType>timestamp with time zone|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>11</Position>
+      <StateNumber>831</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <index id="145" parent="48" name="auth_user_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16647</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>831</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="146" parent="48" name="auth_user_username_key">
+      <ColNames>username</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16736</ObjectId>
+      <StateNumber>844</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <index id="147" parent="48" name="auth_user_username_6821ab7c_like">
+      <ColNames>username</ColNames>
+      <ObjectId>16738</ObjectId>
+      <StateNumber>844</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+      <ClassNames>varchar_pattern_ops</ClassNames>
+      <ClassIds>4218</ClassIds>
+      <ClassParentNames>pg_catalog</ClassParentNames>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <key id="148" parent="48" name="auth_user_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16648</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>831</StateNumber>
+      <UnderlyingIndexId>16647</UnderlyingIndexId>
+    </key>
+    <key id="149" parent="48" name="auth_user_username_key">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16737</ObjectId>
+      <StateNumber>844</StateNumber>
+      <UnderlyingIndexId>16736</UnderlyingIndexId>
+    </key>
+    <column id="150" parent="49" name="id">
+      <DasType>bigint|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>831</StateNumber>
+      <SequenceId>16651</SequenceId>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="151" parent="49" name="user_id">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>831</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="152" parent="49" name="group_id">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>831</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="153" parent="49" name="auth_user_groups_user_id_6a12ed8b_fk_auth_user_id">
+      <ColNames>user_id</ColNames>
+      <Deferrable>1</Deferrable>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ObjectId>16689</ObjectId>
+      <StateNumber>831</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>16644</RefTableId>
+    </foreign-key>
+    <foreign-key id="154" parent="49" name="auth_user_groups_group_id_97559544_fk_auth_group_id">
+      <ColNames>group_id</ColNames>
+      <Deferrable>1</Deferrable>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ObjectId>16694</ObjectId>
+      <StateNumber>831</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>16630</RefTableId>
+    </foreign-key>
+    <index id="155" parent="49" name="auth_user_groups_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16655</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>831</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="156" parent="49" name="auth_user_groups_user_id_group_id_94350c0c_uniq">
+      <ColNames>user_id
+group_id</ColNames>
+      <ObjectId>16687</ObjectId>
+      <StateNumber>831</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="157" parent="49" name="auth_user_groups_user_id_6a12ed8b">
+      <ColNames>user_id</ColNames>
+      <ObjectId>16699</ObjectId>
+      <StateNumber>831</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="158" parent="49" name="auth_user_groups_group_id_97559544">
+      <ColNames>group_id</ColNames>
+      <ObjectId>16700</ObjectId>
+      <StateNumber>831</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="159" parent="49" name="auth_user_groups_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16656</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>831</StateNumber>
+      <UnderlyingIndexId>16655</UnderlyingIndexId>
+    </key>
+    <key id="160" parent="49" name="auth_user_groups_user_id_group_id_94350c0c_uniq">
+      <ObjectId>16688</ObjectId>
+      <StateNumber>831</StateNumber>
+      <UnderlyingIndexId>16687</UnderlyingIndexId>
+    </key>
+    <column id="161" parent="50" name="id">
+      <DasType>bigint|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>831</StateNumber>
+      <SequenceId>16657</SequenceId>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="162" parent="50" name="user_id">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>831</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="163" parent="50" name="permission_id">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>831</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="164" parent="50" name="auth_user_user_permissions_user_id_a95ead1b_fk_auth_user_id">
+      <ColNames>user_id</ColNames>
+      <Deferrable>1</Deferrable>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ObjectId>16703</ObjectId>
+      <StateNumber>831</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>16644</RefTableId>
+    </foreign-key>
+    <foreign-key id="165" parent="50" name="auth_user_user_permi_permission_id_1fbb5f2c_fk_auth_perm">
+      <ColNames>permission_id</ColNames>
+      <Deferrable>1</Deferrable>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ObjectId>16708</ObjectId>
+      <StateNumber>831</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>16624</RefTableId>
+    </foreign-key>
+    <index id="166" parent="50" name="auth_user_user_permissions_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16661</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>831</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="167" parent="50" name="auth_user_user_permissions_user_id_permission_id_14a6b632_uniq">
+      <ColNames>user_id
+permission_id</ColNames>
+      <ObjectId>16701</ObjectId>
+      <StateNumber>831</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="168" parent="50" name="auth_user_user_permissions_user_id_a95ead1b">
+      <ColNames>user_id</ColNames>
+      <ObjectId>16713</ObjectId>
+      <StateNumber>831</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="169" parent="50" name="auth_user_user_permissions_permission_id_1fbb5f2c">
+      <ColNames>permission_id</ColNames>
+      <ObjectId>16714</ObjectId>
+      <StateNumber>831</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="170" parent="50" name="auth_user_user_permissions_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16662</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>831</StateNumber>
+      <UnderlyingIndexId>16661</UnderlyingIndexId>
+    </key>
+    <key id="171" parent="50" name="auth_user_user_permissions_user_id_permission_id_14a6b632_uniq">
+      <ObjectId>16702</ObjectId>
+      <StateNumber>831</StateNumber>
+      <UnderlyingIndexId>16701</UnderlyingIndexId>
+    </key>
+    <check id="172" parent="51" name="django_admin_log_action_flag_check">
+      <ColNames>action_flag</ColNames>
+      <ObjectId>16719</ObjectId>
+      <Predicate>action_flag &gt;= 0</Predicate>
+      <StateNumber>833</StateNumber>
+    </check>
+    <column id="173" parent="51" name="id">
+      <DasType>integer|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>833</StateNumber>
+      <SequenceId>16715</SequenceId>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="174" parent="51" name="action_time">
+      <DasType>timestamp with time zone|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>833</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <column id="175" parent="51" name="object_id">
+      <DasType>text|0s</DasType>
+      <Position>3</Position>
+      <StateNumber>833</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="176" parent="51" name="object_repr">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StateNumber>833</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="177" parent="51" name="action_flag">
+      <DasType>smallint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StateNumber>833</StateNumber>
+      <TypeId>21</TypeId>
+    </column>
+    <column id="178" parent="51" name="change_message">
+      <DasType>text|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+      <StateNumber>833</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="179" parent="51" name="content_type_id">
+      <DasType>integer|0s</DasType>
+      <Position>7</Position>
+      <StateNumber>833</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="180" parent="51" name="user_id">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+      <StateNumber>833</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="181" parent="51" name="django_admin_log_content_type_id_c4bce8eb_fk_django_co">
+      <ColNames>content_type_id</ColNames>
+      <Deferrable>1</Deferrable>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ObjectId>16724</ObjectId>
+      <StateNumber>833</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>16616</RefTableId>
+    </foreign-key>
+    <foreign-key id="182" parent="51" name="django_admin_log_user_id_c564eba6_fk_auth_user_id">
+      <ColNames>user_id</ColNames>
+      <Deferrable>1</Deferrable>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ObjectId>16729</ObjectId>
+      <StateNumber>833</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefTableId>16644</RefTableId>
+    </foreign-key>
+    <index id="183" parent="51" name="django_admin_log_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16722</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>833</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="184" parent="51" name="django_admin_log_content_type_id_c4bce8eb">
+      <ColNames>content_type_id</ColNames>
+      <ObjectId>16734</ObjectId>
+      <StateNumber>833</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="185" parent="51" name="django_admin_log_user_id_c564eba6">
+      <ColNames>user_id</ColNames>
+      <ObjectId>16735</ObjectId>
+      <StateNumber>833</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="186" parent="51" name="django_admin_log_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16723</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>833</StateNumber>
+      <UnderlyingIndexId>16722</UnderlyingIndexId>
+    </key>
+    <column id="187" parent="52" name="id">
+      <DasType>integer|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>830</StateNumber>
+      <SequenceId>16615</SequenceId>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="188" parent="52" name="app_label">
+      <DasType>varchar(100)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>830</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="189" parent="52" name="model">
+      <DasType>varchar(100)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StateNumber>830</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="190" parent="52" name="django_content_type_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16619</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>830</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="191" parent="52" name="django_content_type_app_label_model_76bd3d3b_uniq">
+      <ColNames>app_label
+model</ColNames>
+      <ObjectId>16621</ObjectId>
+      <StateNumber>830</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>100
+100</CollationIds>
+      <CollationNames>default
+default</CollationNames>
+      <CollationParentNames>pg_catalog
+pg_catalog</CollationParentNames>
+    </index>
+    <key id="192" parent="52" name="django_content_type_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16620</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>830</StateNumber>
+      <UnderlyingIndexId>16619</UnderlyingIndexId>
+    </key>
+    <key id="193" parent="52" name="django_content_type_app_label_model_76bd3d3b_uniq">
+      <ObjectId>16622</ObjectId>
+      <StateNumber>830</StateNumber>
+      <UnderlyingIndexId>16621</UnderlyingIndexId>
+    </key>
+    <column id="194" parent="53" name="id">
+      <DasType>bigint|0s</DasType>
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>828</StateNumber>
+      <SequenceId>16599</SequenceId>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="195" parent="53" name="app">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>828</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="196" parent="53" name="name">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>828</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="197" parent="53" name="applied">
+      <DasType>timestamp with time zone|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StateNumber>828</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <index id="198" parent="53" name="django_migrations_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16605</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>828</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="199" parent="53" name="django_migrations_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16606</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>828</StateNumber>
+      <UnderlyingIndexId>16605</UnderlyingIndexId>
+    </key>
+    <column id="200" parent="54" name="session_key">
+      <DasType>varchar(40)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>849</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="201" parent="54" name="session_data">
+      <DasType>text|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StateNumber>849</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="202" parent="54" name="expire_date">
+      <DasType>timestamp with time zone|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>849</StateNumber>
+      <TypeId>1184</TypeId>
+    </column>
+    <index id="203" parent="54" name="django_session_pkey">
+      <ColNames>session_key</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16749</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>849</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <index id="204" parent="54" name="django_session_session_key_c0390e0f_like">
+      <ColNames>session_key</ColNames>
+      <ObjectId>16751</ObjectId>
+      <StateNumber>849</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+      <ClassNames>varchar_pattern_ops</ClassNames>
+      <ClassIds>4218</ClassIds>
+      <ClassParentNames>pg_catalog</ClassParentNames>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <index id="205" parent="54" name="django_session_expire_date_a5c62663">
+      <ColNames>expire_date</ColNames>
+      <ObjectId>16752</ObjectId>
+      <StateNumber>849</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="206" parent="54" name="django_session_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16750</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>849</StateNumber>
+      <UnderlyingIndexId>16749</UnderlyingIndexId>
+    </key>
+  </database-model>
+</dataSource>

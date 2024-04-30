@@ -1,0 +1,48 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    {% for post in posts %}
+        
+        <section class="page-section clearfix my-element">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{  post.image.url }}" alt="" style="width: 50%;">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded" style="margin: 30px auto; height: 250px">
+          <h4 class="section-heading mb-4" >
+            <span>{{ post.title }}</span>
+          </h4>
+          <p class="mb-3">{{ post.content }}
+          </p>
+         
+            <div style="text-align: right; font-size: 0.8em">
+                Author: {{ post.author }}
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+        
+    {% endfor %}
+    
+    <section>
+    <div style="width: 75%; margin: auto; text-align: center; color: white">
+        Categories:
+        
+        {% for post in posts %}
+        
+            {% for category in post.category.all %}
+
+                <a href="{% url 'Category' category.id %}" class="link-categories">{{ category.name }}</a>
+                
+                &nbsp;
+                
+            {% endfor %}
+            
+        {% endfor %}
+    </div>
+    </section>
+
+{% endblock %}

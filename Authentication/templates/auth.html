@@ -1,0 +1,35 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block content %}
+    
+    <div class="{% if request.method != 'POST' %} my-element {% endif %} form-content" style="display: block; width: min-content">
+    
+    <div style="display: block; justify-content: center; width: min-content; margin: auto auto 20px;">
+        <img src="{% static '/img/shopping_cart_PNG38-3518966676.png' %}" alt="Shopping Cart" width="50">
+        </div>
+        
+        <div style="display: flex; justify-content: center;margin: auto">
+        <h3 style="color: white">Register</h3>
+            </div>
+    
+    <form action="" method="post">
+    {% csrf_token %}
+        
+        <div class="" style="text-align: left; color: white; padding: 10px;">
+    
+    {{ form.as_div }}
+            
+            <br>
+    
+    <button type="submit" class="btn btn-success text-center" style="padding: 10px; display: flex; justify-content: center">Register</button>
+            
+            </div>
+    
+    </form>
+    
+    </div>
+        
+
+{% endblock %}
